@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SEO Rocket - Продвижение сайтов</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Шапка -->
+    <header class="header">
+      <div class="container">
+        <a href="#" class="logo">SEO<span>Rocket</span></a>
+
+        <nav class="navbar">
+          <a href="#home">Главная</a>
+          <a href="#services">Услуги</a>
+          <a href="#cases">Кейсы</a>
+          <a href="#about">О нас</a>
+          <a href="#contact">Контакты</a>
+          <a href="#consult" class="nav-cta">Консультация</a>
+        </nav>
+
+        <div class="menu-toggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Герой секция -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1 class="hero-title">
+          <span class="highlight">SEO</span> Продвижение
+          <div class="animated-bar"></div>
+        </h1>
+        <p class="hero-subtitle">Увеличим ваш трафик в 3 раза за 6 месяцев</p>
+        <div class="hero-buttons">
+          <a href="#consult" class="cta-btn primary">
+            Бесплатный аудит
+            <i class="fas fa-arrow-right"></i>
+          </a>
+          <a href="#cases" class="cta-btn secondary">Наши кейсы</a>
+        </div>
+      </div>
+      <div class="hero-scroll">
+        <i class="fas fa-chevron-down"></i>
+      </div>
+      <div id="particles-js" class="hero-particles"></div>
+    </section>
+
+    <!-- Услуги -->
+    <section class="services" id="services">
+      <div class="container">
+        <h2 class="section-title">Наши <span>Услуги</span></h2>
+        <div class="services-grid">
+          <div class="service">
+            <div class="service-icon">
+              <i class="fas fa-search-dollar"></i>
+            </div>
+            <h3>SEO Оптимизация</h3>
+            <p>
+              Комплексная внутренняя и внешняя оптимизация для роста позиций
+            </p>
+            <a href="#consult" class="service-link"
+              >Заказать <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+          <div class="service">
+            <div class="service-icon">
+              <i class="fas fa-ad"></i>
+            </div>
+            <h3>Контекстная реклама</h3>
+            <p>
+              Таргетированная реклама в Google и Яндекс с максимальной
+              конверсией
+            </p>
+            <a href="#consult" class="service-link"
+              >Заказать <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+          <div class="service">
+            <div class="service-icon">
+              <i class="fas fa-chart-network"></i>
+            </div>
+            <h3>SMM Продвижение</h3>
+            <p>Увеличение охвата и вовлеченности в социальных сетях</p>
+            <a href="#consult" class="service-link"
+              >Заказать <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Форма заявки -->
+    <section class="contact-form-section" id="consult">
+      <div class="container">
+        <h2 class="section-title">Оставьте <span>заявку</span></h2>
+        <div class="form-container">
+          <form id="leadForm" class="lead-form">
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Ваше имя" required />
+            </div>
+            <div class="form-group">
+              <input type="tel" name="phone" placeholder="Телефон" required />
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" placeholder="Email" required />
+            </div>
+            <div class="form-group">
+              <select name="service" required>
+                <option value="">Выберите услугу</option>
+                <option value="SEO Оптимизация">SEO Оптимизация</option>
+                <option value="Контекстная реклама">Контекстная реклама</option>
+                <option value="SMM Продвижение">SMM Продвижение</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <textarea
+                name="message"
+                placeholder="Ваше сообщение (необязательно)"
+              ></textarea>
+            </div>
+            <button type="submit" class="cta-btn primary">
+              Отправить заявку
+            </button>
+          </form>
+          <div id="formMessage" class="form-message"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer class="footer" id="contact">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-about">
+            <h3>SEORocket</h3>
+            <p>Профессиональное SEO-продвижение с гарантией результата</p>
+          </div>
+          <div class="footer-links">
+            <h4>Навигация</h4>
+            <a href="#home">Главная</a>
+            <a href="#services">Услуги</a>
+            <a href="#cases">Кейсы</a>
+            <a href="#about">О нас</a>
+          </div>
+          <div class="footer-contact">
+            <h4>Контакты</h4>
+            <p><i class="fas fa-phone"></i> +7 (999) 123-45-67</p>
+            <p><i class="fas fa-envelope"></i> info@seorocket.ru</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2023 SEORocket. Все права защищены</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-vk"></i></a>
+            <a href="#"><i class="fab fa-telegram"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
